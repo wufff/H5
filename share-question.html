@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/share.question.css">
+    <title>分享</title>
+</head>
+<script>
+    function setRem() {
+        const html = document.querySelector('html');
+        let fontSize = window.innerWidth / 10;
+        html.style.fontSize = fontSize + 'px';
+    }
+     document.addEventListener('DOMContentLoaded',()=>{
+         setRem();
+     });
+    window.addEventListener("resize", function(){
+        setRem();
+    })
+</script>
+<body>
+   <div class="head-down">
+      <div class="title">
+          <img src="http://wufff.myg.images.dev.dodoedu.com/vm_qd/static/src/img/exhList/ex-g-bg_03.jpg" alt="" class="logo">
+          <span class="name">主题出版</span>
+      </div>
+       <a href="" class="downBtn">立即下载</a>
+   </div>
+   <div class="main">
+       <div class="main-info">
+          <img class="book-logo" src="http://wufff.myg.images.dev.dodoedu.com/vm_qd/static/src/img/exhList/ex-g-bg_03.jpg" alt="">
+          <div class="book-name">
+              <div class="name">图说中国非物质文化遗产图说中国非物质文化遗产</div>
+              <div class="price">
+                  20知币
+              </div>
+          </div>
+      </div>
+       <div class="info">
+           <p>作者：曾哲</p>
+           <p>作者：曾哲</p>
+           <p>作者：曾哲</p>
+           <p>作者：曾哲</p>
+           <p>作者：曾哲</p>
+           <p>作者：曾哲</p>
+           <p>作者：曾哲</p>
+           <p>作者：曾哲</p>
+       </div>
+       <div class="content">
+           <div class="title">简介</div>
+           <div class="words">
+               "国政治制度；中国近代国际关系史；美国对华政策；中国外交史进先导中国问题；中国政治制度；中国近代国际关系史美国对华政策
+               "国政治制度；中国近代国际关系史；美国对华政策；中国外交史进先导中国问题；中国政治制度；中国近代国际关系史美国对华政策
+                   "国政治制度；中国近代国际关系史；美国对华政策；中国外交史进先导中国问题；中国政治制度；中国近代国际关系史美国对华政策
+               "国政治制度；中国近代国际关系史；美国对华政策；中国外交史进先导中国问题；中国政治制度；中国近代国际关系史美国对华政策
+           </div>
+           <div class="bottom" id="openWrods">
+               <div class="iconfont">&#xe69b;</div>
+           </div>
+           <div class="bottom" id="closeWrods" style="display: none">
+               <div class="iconfont">&#xe629;</div>
+           </div>
+       </div>
+       <div class="catalog">
+           <div class="title">
+               目录
+               <span class="small">( 共20张姐 )</span>
+           </div>
+           <p>第一章  我的童年和少年</p>
+           <p>第一章  我的童年和少年</p>
+           <p>第一章  我的童年和少年</p>
+           <p>第一章  我的童年和少年</p>
+           <p>第一章  我的童年和少年</p>
+           <div class="moreBtn-c-o">
+               <div class="iconfont">&#xe69b;</div>
+           </div>
+           <p>第一章  我的童年和少年</p>
+           <p>第一章  我的童年和少年</p>
+           <p>第一章  我的童年和少年</p>
+           <p>第一章  我的童年和少年</p>
+           <p>第一章  我的童年和少年</p>
+           <div class="moreBtn-c-c" style="display: none;">
+               <div class="iconfont">&#xe629;</div>
+           </div>
+       </div>
+   </div>
+   <script>
+       window.onload = function () {
+           let openBtn = document.querySelector("#openWrods");
+           let closeBtn = document.querySelector("#closeWrods");
+           let moreBtn = document.querySelector(".moreBtn-c-o");
+           let closeMoreBtn = document.querySelector(".moreBtn-c-c");
+           let words =  document.querySelector(".words");
+           let height = words.style.height;
+           let catalog = document.querySelector(".catalog");
+           let catalogHeight = catalog.style.height;
+           openBtn.onclick =function () {
+               this.style.display = "none";
+               words.style.height = "auto";
+               closeBtn.style.display = "block";
+           };
+           closeBtn.onclick = function () {
+               this.style.display = "none";
+               words.style.height = height;
+               openBtn.style.display = "block";
+           };
+           moreBtn.onclick =function () {
+               this.style.display = "none";
+               catalog.style.height = "auto";
+               closeMoreBtn.style.display = "block";
+           };
+           closeMoreBtn.onclick = function () {
+               this.style.display = "none";
+               catalog.style.height = catalogHeight;
+               moreBtn.style.display = "block";
+           }
+       }
+   </script>
+</body>
+</html>

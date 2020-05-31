@@ -1,0 +1,90 @@
+body {
+  font-size: 0.4266666667rem; }
+
+.head-down {
+  height: 1.3333333333rem;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.09);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.3466666667rem; }
+  .head-down .title {
+    display: flex;
+    align-items: center;
+    font-size: 0.3733333333rem; }
+    .head-down .title .name {
+      margin-left: 10px; }
+  .head-down .logo {
+    width: 0.9066666667rem;
+    height: 0.9066666667rem;
+    border-radius: 5px; }
+  .head-down .downBtn {
+    width: 1.6533333333rem;
+    height: 0.6933333333rem;
+    line-height: 0.6933333333rem;
+    background-color: #bd4044;
+    border-radius: 0.3466666667rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.32rem; }
+
+.main-info {
+  display: flex;
+  padding: 0.3466666667rem; }
+  .main-info .book-logo {
+    width: 2.1333333333rem;
+    height: 2.8533333333rem; }
+  .main-info .book-name {
+    width: 7.2rem;
+    margin-left: 0.2933333333rem;
+    font-size: 0.4533333333rem;
+    height: 0.72rem; }
+    .main-info .book-name .name {
+      line-height: 1.6;
+      color: #2c333b; }
+    .main-info .book-name .price {
+      color: #bd4044;
+      margin-top: 0.3466666667rem; }
+
+.info {
+  padding: 0 0.3466666667rem;
+  font-size: 0.3733333333rem; }
+  .info p {
+    line-height: 2.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+
+.content {
+  padding: 0.3466666667rem 0.3466666667rem 0.1333333333rem 0.3466666667rem;
+  border-bottom: 10px solid #f5f5f5; }
+  .content .title {
+    margin-bottom: 0.3466666667rem; }
+  .content .words {
+    font-size: 0.3733333333rem;
+    line-height: 1.8;
+    height: 3.3066666667rem;
+    overflow: hidden; }
+  .content .bottom {
+    text-align: center; }
+
+.catalog {
+  padding: 0.3466666667rem 0.3466666667rem 0.1333333333rem 0.3466666667rem;
+  height: 6.4533333333rem;
+  overflow: hidden; }
+  .catalog .title {
+    margin-bottom: 0.2133333333rem; }
+    .catalog .title .small {
+      font-size: 0.3733333333rem;
+      margin-left: 3px; }
+  .catalog .moreBtn-c-o {
+    text-align: center; }
+  .catalog .moreBtn-c-c {
+    text-align: center; }
+  .catalog p {
+    font-size: 0.3733333333rem;
+    line-height: 2.6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }

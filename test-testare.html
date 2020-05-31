@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+    <title>testarea</title>
+</head>
+<script>
+</script>
+<body>
+<textarea name="" id="textarea" cols="30" rows="10"></textarea>
+<div id="ids">
+    192.168.1.1,
+    192.168.1.3,
+    192.168.1.1,
+    192.168.1.3,
+    192.168.1.1,
+    192.168.1.3,
+    192.168.1.1,
+    192.168.1.3,
+</div>
+<button id="getFormat">获取格式</button>
+<button id="toFormat">粘贴格式</button>
+</body>
+<script>
+    $(function () {
+        $("#getFormat").click(function () {
+            var str =  $("#textarea").val();
+            var strs = str.split("\n").join(",");
+            alert(strs);
+        })
+        $("#toFormat").click(function () {
+            var str =  $("#ids").html();
+            var strs = str.split(",")
+            var strs3 = strs.map(function (i) {
+                return  $.trim(i)
+            })
+            var str4 = strs3.join("\n");
+            $("#textarea").val(str4);
+        })
+    })
+</script>
+</html>

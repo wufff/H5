@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f16c246c-c57f-42ea-9f04-e5a59eb33d15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-testare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/share.wm.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-testare.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-testare.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1aCaJr28xEV40sZj7MasOs1Bteh" />
   <component name="ProjectViewState">
@@ -28,12 +34,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="LESS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wm_art_museum_images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="ServiceViewManager">
@@ -71,6 +86,8 @@
       <workItem from="1589156550620" duration="606000" />
       <workItem from="1589250046868" duration="2735000" />
       <workItem from="1590920374116" duration="2278000" />
+      <workItem from="1590992675072" duration="2817000" />
+      <workItem from="1591840258810" duration="5098000" />
     </task>
     <servers />
   </component>
@@ -78,18 +95,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1590922694455">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1591845753154">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="380" y="0" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1590922694455" />
-    <state x="388" y="60" width="1144" height="972" key="EditFileWatcherDialog" timestamp="1586250944066">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1591845753154" />
+    <state x="388" y="61" width="1144" height="972" key="EditFileWatcherDialog" timestamp="1591841249452">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="388" y="60" width="1144" height="972" key="EditFileWatcherDialog/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1586250944066" />
-    <state x="636" y="154" key="FileChooserDialogImpl" timestamp="1589253020493">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="388" y="61" key="EditFileWatcherDialog/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1591841249452" />
+    <state x="636" y="157" key="FileChooserDialogImpl" timestamp="1591841293291">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="636" y="154" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1589253020493" />
+    <state x="636" y="157" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1591841293291" />
     <state x="213" y="0" key="SettingsEditor" timestamp="1587432155371">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -98,6 +118,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="470" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1590920987165" />
+    <state x="719" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591841372014">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="719" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1591841372014" />
     <state x="351" y="15" key="scopes" timestamp="1586245280224">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

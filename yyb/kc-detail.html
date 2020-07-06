@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/yyb.css">
+    <title>外教详情</title>
+</head>
+<script>
+    function setRem() {
+        const html = document.querySelector('html');
+        let fontSize = window.innerWidth / 10;
+        html.style.fontSize = fontSize + 'px';
+    }
+    document.addEventListener('DOMContentLoaded',()=>{
+        setRem();
+    });
+    window.addEventListener("resize", function(){
+        setRem();
+    });
+</script>
+<body>
+<div class="kc-d">
+    <div class="banner" style="background-image: url('banner.png')">
+        <span class="icon-left backBt"></span>
+    </div>
+    <div class="info">
+       <h4>24节北美外教在线1对1直播课</h4>
+        <div class="price">
+            <span class="red">¥960</span><s>2460</s>
+        </div>
+        <div class="tags">
+            <span class="tag">新人专享</span>
+            <span class="tag">新人专享</span>
+            <span class="tag">新人专享</span>
+            <span class="tag">新人专享</span><span class="tag">新人专享</span>
+            <span class="tag">新人专享</span><span class="tag">新人专享</span>
+        </div>
+        <div class="agree">
+            <span>服务协议</span>
+            <span class="value">外教直播授课·中教辅导·无限回放</span>
+        </div>
+    </div>
+    <div class="detail">
+        <div class="title">课程介绍</div>
+        <div class="detail-main">
+            <div class="detail-img">
+                <div class="videoBox">
+                    <video controls="controls" preload="auto" poster="" x5-video-player-fullscreen="true" webkit-playsinline="true" x-webkit-airplay="true" playsinline="true" x5-playsinline >
+                        <source src="video.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="videoBox">
+                    <video controls="controls" preload="auto" poster="" x5-video-player-fullscreen="true" webkit-playsinline="true" x-webkit-airplay="true" playsinline="true" x5-playsinline >
+                        <source src="video2.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <img src="ex_detial.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="detail-bt" style="display: none">
+        <div class="price">
+            <span class="red">
+                已报名
+            </span>
+            <span class="label">6人班</span>
+            <span class="label">24课时</span>
+        </div>
+        <div class="btn-blue">
+            进入课堂
+        </div>
+    </div>
+    <div class="detail-bt">
+        <div class="price">
+            <span class="red">
+                ¥960
+            </span>
+            <span class="label">6人班</span>
+            <span class="label">24课时</span>
+        </div>
+        <div class="btn-yellow">
+            立即报名
+        </div>
+    </div>
+    <div class="dialog selectCourse">
+        <div class="mask"></div>
+        <div id="selectCourse">
+            <div class="close">
+                <img src="close.png" alt="">
+            </div>
+            <div class="title" style="background-image: url('selectTitle.png')"></div>
+            <div class="items">
+                <div class="item">
+                    <div class="itemsCourse">
+                        <div class="name">6人精品小班课</div>
+                        <div class="length">24课时</div>
+                        <div class="english">在线外教英语课VIP次卡</div>
+                    </div>
+                    <div class="itemsPrice">
+                        <s><span class="label">¥</span>2400</s>
+                        <div class="price">
+                            <span class="label">¥</span>
+                            <span>1320</span>
+                        </div>
+                        <div>
+                            新人专享
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemsCourse">
+                        <div class="name">6人精品小班课</div>
+                        <div class="length">24课时</div>
+                        <div class="english">在线外教英语课VIP次卡</div>
+                    </div>
+                    <div class="itemsPrice">
+                        <s><span class="label">¥</span>2400</s>
+                        <div class="price">
+                            <span class="label">¥</span>
+                            <span>1320</span>
+                        </div>
+                        <div>
+                            新人专享
+                        </div>
+                    </div>
+                </div>
+                <div class="item active">
+                    <div class="itemsCourse">
+                        <div class="name">6人精品小班课</div>
+                        <div class="length">24课时</div>
+                        <div class="english">在线外教英语课VIP次卡</div>
+                    </div>
+                    <div class="itemsPrice">
+                        <s><span class="label">¥</span>2400</s>
+                        <div class="price">
+                            <span class="label">¥</span>
+                            <span>1320</span>
+                        </div>
+                        <div>
+                            新人专享
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemsCourse">
+                        <div class="name">6人精品小班课</div>
+                        <div class="length">24课时</div>
+                        <div class="english">在线外教英语课VIP次卡</div>
+                    </div>
+                    <div class="itemsPrice">
+                        <s><span class="label">¥</span>2400</s>
+                        <div class="price">
+                            <span class="label">¥</span>
+                            <span>1320</span>
+                        </div>
+                        <div>
+                            新人专享
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/zepto-1.2.0.min.js"></script>
+<script src="ty-detail.js"></script>
+</body>
+</html>

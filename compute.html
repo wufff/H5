@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html查询</title>
+    <script src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js"></script>
+</head>
+<style>
+    *{margin: 0;padding: 0;}
+    body { padding-top: 80px;}
+    .inputBox { width: 1000px;margin: 10px auto 10px auto;overflow: hidden}
+    .inputBox input { float: left;width: 40px;}
+    .inputBox .label {float:left;margin-right: 20px;}
+    .inputBox .title { color:#999999;margin-right: 10px;margin-left: 20px;}
+    .inputBox .value { color:red;display: inline-block;width:40px;}
+</style>
+<body>
+   <div class="inputBox">
+       <input type="text" class="input">
+       <div class="label">
+           <span class="title">1.01</span>
+           <span class="value value1"></span>
+       </div>
+       <div class="label">
+           <span class="title">0.93</span>
+           <span class="value value2"></span>
+       </div>
+       <div class="label">
+           <button class="buyBtn">查询</button>
+       </div>
+   </div>
+   <div class="inputBox">
+       <input type="text" class="input">
+       <div class="label">
+           <span class="title">1.01</span>
+           <span class="value value1"></span>
+       </div>
+       <div class="label">
+           <span class="title">0.93</span>
+           <span class="value value2"></span>
+       </div>
+       <div class="label">
+           <button class="buyBtn">查询</button>
+       </div>
+   </div>
+   <div class="inputBox">
+       <input type="text" class="input">
+       <div class="label">
+           <span class="title">-0.07</span>
+           <span class="value value1"></span>
+       </div>
+       <div class="label">
+           <span class="title">-0.05</span>
+           <span class="value value2"></span>
+       </div>
+       <div class="label">
+           <span class="title">-0.03</span>
+           <span class="value value3"></span>
+       </div>
+       <div class="label">
+           <span class="title">0.03</span>
+           <span class="value value4"></span>
+       </div>
+       <div class="label">
+           <span class="title">0.05</span>
+           <span class="value value5"></span>
+       </div>
+       <div class="label">
+           <span class="title">0.07</span>
+           <span class="value value6"></span>
+       </div>
+       <div class="label">
+           <button class="sellBtn">查询</button>
+       </div>
+   </div>
+   <div class="inputBox">
+       <input type="text" class="input">
+       <div class="label">
+           <span class="title">-0.07</span>
+           <span class="value value1"></span>
+       </div>
+       <div class="label">
+           <span class="title">-0.05</span>
+           <span class="value value2"></span>
+       </div>
+       <div class="label">
+           <span class="title">-0.03</span>
+           <span class="value value3"></span>
+       </div>
+       <div class="label">
+           <span class="title">0.03</span>
+           <span class="value value4"></span>
+       </div>
+       <div class="label">
+           <span class="title">0.05</span>
+           <span class="value value5"></span>
+       </div>
+       <div class="label">
+           <span class="title">0.07</span>
+           <span class="value value6"></span>
+       </div>
+       <div class="label">
+           <button class="sellBtn">查询</button>
+       </div>
+   </div>
+</body>
+<script>
+    $(function () {
+       $(".buyBtn").click(function () {
+          var parent = $(this).parents(".inputBox");
+          var num = Number(parent.find(".input").val());
+          var value1 = num*1.01;
+          var value2 = num*0.93;
+          if(num){
+              parent.find(".value1").text(value1.toFixed(2));
+              parent.find(".value2").text(value2.toFixed(2));
+          }
+       })
+        $(".sellBtn").click(function () {
+            var parent = $(this).parents(".inputBox");
+            var num = Number(parent.find(".input").val());
+            var value1 = num*0.93;
+            var value2 = num*0.95;
+            var value3 = num*0.97;
+            var value4 = num*1.03;
+            var value5 = num*1.05;
+            var value6 = num*1.07;
+            if(num){
+                parent.find(".value1").text(value1.toFixed(2));
+                parent.find(".value2").text(value2.toFixed(2));
+                parent.find(".value3").text(value3.toFixed(2));
+                parent.find(".value4").text(value4.toFixed(2));
+                parent.find(".value5").text(value5.toFixed(2));
+                parent.find(".value6").text(value6.toFixed(2));
+            }
+        })
+    })
+</script>
+</html>

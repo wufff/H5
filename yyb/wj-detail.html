@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/yyb.css">
+    <title>外教详情</title>
+</head>
+<script>
+    function setRem() {
+        const html = document.querySelector('html');
+        let fontSize = window.innerWidth / 10;
+        html.style.fontSize = fontSize + 'px';
+    }
+    document.addEventListener('DOMContentLoaded',()=>{
+        setRem();
+    });
+    window.addEventListener("resize", function(){
+        setRem();
+    });
+</script>
+<body>
+  <div class="wj-d">
+      <div class="head">
+          <div class="headImg" style="background-image: url('http://files.dodoedu.com/wmmyg/upload/snapshot/2019/12/11/20191211175303eaebf937e9958ae1dcd44b87d28ca884.png')">
+
+          </div>
+          <div class="info">
+             <div class="name">Tim·Henry</div>
+              <div class="address">
+                  <img src="dq.png" alt="" class="icon">
+                  <span>新加坡</span>
+              </div>
+              <div class="tags">
+                  <span class="tag">活泼亲切</span>
+                  <span class="tag">寓教于乐</span>
+                  <span class="tag red">已授课900课时</span>
+              </div>
+          </div>
+      </div>
+      <div class="content">
+          <div class="videoBox">
+              <video controls="controls" preload="auto" poster="" x5-video-player-fullscreen="true" webkit-playsinline="true" x-webkit-airplay="true" playsinline="true" x5-playsinline >
+                  <source src="test.mp4" type="video/mp4 " />
+              </video>
+          </div>
+          <div class="p">
+              大家好，我是Henry老师。我从事在线教育已有七年之久，我曾在国际学校、政府学校、私立学校和许多语言机构工作。 我非常擅长教授
+              有七年之久，我曾在国际学校、政府学校、私立学校和许多语言机构工作。 我非常擅长教授
+              有七年之久，我曾在国际学校、政府学校、私立学校和许多语言机构工作。 我非常擅长教授
+          </div>
+      </div>
+  </div>
+</body>
+</html>

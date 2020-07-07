@@ -190,6 +190,18 @@ body { font-size: 16/@rem;height: 100%;width: 100%;background-color:#f9f9f9; }
     right: 0;
     background: #fff;
     z-index: 60;
+    .submitBt {
+       width: 180/@rem;
+       height: 50/@rem;
+       border-radius:40/@rem;
+       background-color: #f46e4e;
+       color:#fff;
+      text-align: center;
+       line-height:50/@rem;
+       font-size: 23/@rem;
+       letter-spacing: 2px;
+       margin:0 auto 23/@rem auto;
+    }
     .border-dialog-top();
     .title {
        height: 23/@rem;
@@ -199,7 +211,7 @@ body { font-size: 16/@rem;height: 100%;width: 100%;background-color:#f9f9f9; }
        padding-top: 70/@rem;
     }
     .items{
-       padding:0 28/@rem 24/@rem 28/@rem;
+       padding:0 28/@rem 7/@rem 28/@rem;
       .item {
           border:2px solid #1b0303;
           border-radius:12/@rem;
@@ -207,6 +219,7 @@ body { font-size: 16/@rem;height: 100%;width: 100%;background-color:#f9f9f9; }
           display: flex;
           justify-content: space-between;
           margin-bottom: 15/@rem;
+          box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
           &.active {
              background-color: #fdd13a;
           }
@@ -230,23 +243,38 @@ body { font-size: 16/@rem;height: 100%;width: 100%;background-color:#f9f9f9; }
            color:#432005;
            s {
               font-size: 16/@rem;
-              margin-bottom: 5 /@rem;
              .label {
                font-size:5/@rem;
                margin-right: 1px;
              }
            }
           .price {
+             overflow: hidden;
+             margin:5/@rem 0 5 /@rem 0;
              .label {
-                font-size:15/@rem;
+               float: left;
+               img { width: 12/@rem; height: 15/@rem;padding-top: 4/@rem;margin-right: 2px;}
              }
-             font-size: 23/@rem;
-             color:#fda93d;
-             font-weight: bold;
-             margin-bottom: 5/@rem;
-             text-shadow: 2px 0 0 #432005, -2px 0 0 #432005, -0px 2px 0 #432005 , 0 -2px 0 #432005;
-             letter-spacing: 2px;
+            .numBox {
+                 float: left;
+                 img {
+                    height: 21/@rem;
+                    float: left;
+                    margin-left: 2px;
+                 }
+                 img.num1 {
+                    height: 18/@rem;
+                    padding-top: 1px;
+                 }
+                 img.num0{
+                  height: 19/@rem;
+                  padding-top: 1px;
+                }
+            }
           }
+        }
+        .submitBt {
+          background-color: red;
         }
       }
     }

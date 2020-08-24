@@ -1,21 +1,33 @@
 body {
-  font-size: 0.3733333333rem;
-  padding: 0.7466666667rem 0.48rem 0.3466666667rem 0.5333333333rem;
-  color: #333333; }
-
+  font-size: 0.37333333rem;
+  padding: 0.74666667rem 0.48rem 0.34666667rem 0.53333333rem;
+  color: #333333;
+}
 h3 {
   text-align: center;
-  margin-bottom: 0.7466666667rem;
-  font-size: 0.48rem; }
-
+  margin-bottom: 0.74666667rem;
+  font-size: 0.48rem;
+}
 h4 {
-  font-size: 0.4rem; }
-
-h4, p {
-  margin-bottom: 0.4rem; }
-
+  font-size: 0.4rem;
+}
+h4,
 p {
-  line-height: 1.4; }
-
-span {
-  font-weight: bold; }
+  margin-bottom: 0.4rem;
+}
+h5 {
+  font-size: 0.37333333rem;
+}
+p {
+  line-height: 1.4;
+}
+.bold {
+  font-weight: bold;
+}
+.text-indent {
+  text-indent: 2em;
+}
+.red {
+  color: red;
+}
+/*# sourceMappingURL=agreement.css.map */

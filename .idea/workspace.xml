@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f16c246c-c57f-42ea-9f04-e5a59eb33d15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/share.wm.less" afterDir="false" />
+    <list default="true" id="f16c246c-c57f-42ea-9f04-e5a59eb33d15" name="Default Changelist" comment="提交">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/agreement.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/xingkai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vidoeDtail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vidoeDtail2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vidoeDtail3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whyc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-testare.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-testare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/agreement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/agreement.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agreement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/agreement.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/agreement.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
       </list>
@@ -28,6 +37,9 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1aCaJr28xEV40sZj7MasOs1Bteh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="LESS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wm_art_museum_images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -49,7 +61,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\H5" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -87,48 +104,122 @@
       <workItem from="1589250046868" duration="2735000" />
       <workItem from="1590920374116" duration="2278000" />
       <workItem from="1590992675072" duration="2817000" />
-      <workItem from="1591840258810" duration="5098000" />
+      <workItem from="1591840258810" duration="5399000" />
+      <workItem from="1591928561854" duration="1282000" />
+      <workItem from="1591930064931" duration="67000" />
+      <workItem from="1591930668633" duration="4220000" />
+      <workItem from="1592966459322" duration="3853000" />
+      <workItem from="1593222463203" duration="3691000" />
+      <workItem from="1593243537423" duration="1578000" />
+      <workItem from="1593306939190" duration="24000" />
+      <workItem from="1593326839959" duration="7926000" />
+      <workItem from="1593394357613" duration="1553000" />
+      <workItem from="1593396696798" duration="3473000" />
+      <workItem from="1593412983058" duration="1883000" />
+      <workItem from="1593479043882" duration="175000" />
+      <workItem from="1593656674574" duration="1065000" />
+      <workItem from="1593657760379" duration="388000" />
+      <workItem from="1593658161956" duration="14307000" />
+      <workItem from="1593739848649" duration="12407000" />
+      <workItem from="1593999638841" duration="16255000" />
+      <workItem from="1594030191540" duration="18000" />
+      <workItem from="1594084113933" duration="7945000" />
+      <workItem from="1594189004248" duration="4310000" />
+      <workItem from="1594860759330" duration="3539000" />
+      <workItem from="1594887852617" duration="135000" />
+      <workItem from="1595297398991" duration="803000" />
+      <workItem from="1595483698566" duration="633000" />
+      <workItem from="1597299812144" duration="263000" />
+      <workItem from="1597626604055" duration="154000" />
+      <workItem from="1597717461491" duration="9267000" />
+      <workItem from="1597800450254" duration="13150000" />
+      <workItem from="1597886399374" duration="6894000" />
+      <workItem from="1597893332726" duration="11018000" />
+      <workItem from="1597972742604" duration="18805000" />
+      <workItem from="1598232097653" duration="17660000" />
     </task>
+    <task id="LOCAL-00001" summary="唯美分享">
+      <created>1591845765629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591845765629</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交">
+      <created>1594030054177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594030054178</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交">
+      <created>1594092402350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594092402350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="唯美分享" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1591845753154">
+    <state x="652" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594189426255">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="652" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1594189426255" />
+    <state x="627" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594001976059">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="627" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1594001976059" />
+    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1594092395714">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="380" y="0" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1590922694455" />
-    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1591845753154" />
+    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1594092395714" />
     <state x="388" y="61" width="1144" height="972" key="EditFileWatcherDialog" timestamp="1591841249452">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="388" y="60" width="1144" height="972" key="EditFileWatcherDialog/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1586250944066" />
     <state x="388" y="61" key="EditFileWatcherDialog/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1591841249452" />
-    <state x="636" y="157" key="FileChooserDialogImpl" timestamp="1591841293291">
+    <state x="636" y="157" key="FileChooserDialogImpl" timestamp="1598234222431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="636" y="154" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1589253020493" />
-    <state x="636" y="157" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1591841293291" />
-    <state x="213" y="0" key="SettingsEditor" timestamp="1587432155371">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="636" y="157" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1598234222431" />
+    <state x="491" y="58" key="SettingsEditor" timestamp="1593400988527">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="213" y="0" key="SettingsEditor/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1587432155371" />
-    <state x="470" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590920987165">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="491" y="58" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1593400988527" />
+    <state x="452" y="194" key="Vcs.Push.Dialog.v2" timestamp="1594030058059">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1594030058059" />
+    <state x="470" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594016217218">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="470" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1590920987165" />
-    <state x="719" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591841372014">
+    <state x="470" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1594016217218" />
+    <state x="719" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593246829548">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="719" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1591841372014" />
-    <state x="351" y="15" key="scopes" timestamp="1586245280224">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="719" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1593246829548" />
+    <state x="92" y="92" width="1736" height="866" key="dock-window-1" timestamp="1594860865699">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="351" y="15" key="scopes/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1586245280224" />
-    <state x="907" y="0" width="1009" height="1028" key="search.everywhere.popup" timestamp="1587432286209">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="92" y="92" width="1736" height="866" key="dock-window-1/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1594860865699" />
+    <state x="92" y="92" width="1736" height="866" key="dock-window-2" timestamp="1594860865699">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="907" y="0" width="1009" height="1028" key="search.everywhere.popup/0.0.1920.1032/1920.0.1600.900@0.0.1920.1032" timestamp="1587432286209" />
+    <state x="92" y="92" width="1736" height="866" key="dock-window-2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1594860865699" />
+    <state x="532" y="234" key="run.anything.popup" timestamp="1594192201373">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="532" y="234" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1594192201373" />
   </component>
 </project>
